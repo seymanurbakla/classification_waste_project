@@ -4,7 +4,9 @@ numpy
 pandas
 scikit-learn
 Pillow
-opencv-python
+opencv-python-headless2
 torch
-libgl1-mesa-glx
+torchvision
+matplotlib
+seaborn
 
