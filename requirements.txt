@@ -1,1 +1,7 @@
 ultralytics
+streamlit
+numpy
+pandas
+scikit-learn
+Pillow
+
