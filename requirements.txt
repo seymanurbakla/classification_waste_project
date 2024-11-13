@@ -1,4 +1,4 @@
-streamlit==1.25.0
-ultralytics==8.0.157
-pillow>=7.1.0,<10
-
+streamlit
+ultralytics
+pillow
+numpy
