@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Nov 13 22:22:22 2024
+Created on Wed Nov 13 22:37:26 2024
 
 @author: seynoma
 """
+
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
-import numpy as np
 
 # Set up Streamlit page configuration
 st.set_page_config(page_title="Image Classifier", page_icon="🖼️", layout="wide")
 
 # Load your trained model
-MODEL_PATH = "runs/classify/train/weights/best.pt"
+MODEL_PATH = "best.pt"
 model = YOLO(MODEL_PATH)
 
 # Streamlit app interface
@@ -44,4 +44,3 @@ if uploaded_image is not None:
 # Footer
 st.markdown("---")
 st.markdown("Made with ❤️ using [YOLOv8](https://github.com/ultralytics/ultralytics) and [Streamlit](https://streamlit.io).")
-
